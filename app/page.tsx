@@ -19,7 +19,7 @@ export default function CV() {
             <p className="text-lg">
               Software Engineer | Student at the University of Geneva & HKU
             </p>
-            <p className="text-md">Hong Kong, SAR</p>
+            <p className="text-md">Geneva, Switzerland</p>
           </div>
         </div>
       </header>
@@ -134,12 +134,48 @@ export default function CV() {
           </p>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-xl font-semibold">Personal Website</h3>
+        <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
+          <h3 className="text-xl font-semibold">
+            Predicting Box Office Success: Analyzing Film Industry Data
+          </h3>
           <p>
-            Developed a personal website to showcase projects, experiences, and
-            educational background. Implemented using Next.js and Tailwind CSS,
-            focusing on responsive design and optimal performance.
+            Along with my classmates, I Participated in the{" "}
+            <a
+              href="https://www.kaggle.com/competitions/tmdb-box-office-prediction/overview"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-900 hover:underline"
+            >
+              TMDB Box Office Prediction
+            </a>{" "}
+            competition on Kaggle.
+          </p>
+          <p>
+            {" "}
+            We focused on preprocessing the data by removing unnecessary
+            information and converting certain features into boolean values. We
+            also applied multiclass hot encoding to genres and counted
+            occurrences in production countries, spoken languages, keywords,
+            cast, and crew. Various models were tried, and the best fitting
+            model was selected based on performance. This was in the context of
+            our Data Mining course Project.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
+          <h3 className="text-xl font-semibold">
+            EduAssess: Interactive Lab Feedback System
+          </h3>
+          <p>
+            Over the span of a semestre, I developed "EduAssess," a software
+            application aimed at helping students better understand the
+            expectations of their lab assignments in the Operating Systems
+            course at UNIGE. Supervised by my professor, Chanel Guillaume, this
+            tool provides instant and autonomous feedback by running rigorous
+            Python tests that simulate the evaluation criteria set by the
+            professor. The system minimizes the use of external libraries and is
+            designed to handle execution differences across different
+            environments.
           </p>
         </div>
       </section>
