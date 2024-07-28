@@ -167,7 +167,7 @@ export default function CV() {
             EduAssess: Interactive Lab Feedback System
           </h3>
           <p>
-            Over the span of a semestre, I developed "EduAssess," a software
+            Over the span of a semestre, I developed EduAssess, a software
             application aimed at helping students better understand the
             expectations of their lab assignments in the Operating Systems
             course at UNIGE. Supervised by my professor, Chanel Guillaume, this
