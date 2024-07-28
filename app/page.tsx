@@ -53,7 +53,7 @@ export default function CV() {
           </li>
         </ul>
       </nav>
-      <section id="about" className="w-full max-w-4xl mb-12">
+      <section id="about" className="w-full max-w-4xl mb-40">
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold mb-4">ABOUT</h3>
           <p className="mb-4">
@@ -71,7 +71,7 @@ export default function CV() {
           </p>
           <p>
             I am passionate about leveraging technology to create innovative
-            solutions that improve people&#39;s lives. My interests include
+            solutions that improve peoples lives. My interests include
             cryptography, web development, and artificial intelligence. I am
             always eager to learn new technologies and explore new opportunities
             to apply my skills.
@@ -115,7 +115,7 @@ export default function CV() {
         </div>
       </section>
 
-      <section id="projects" className="w-full max-w-4xl mb-12">
+      <section id="projects" className="w-full max-w-4xl mb-40">
         <h2 className="text-2xl font-bold mb-4">PROJECTS</h2>
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
           <h3 className="text-xl font-semibold">
@@ -144,7 +144,7 @@ export default function CV() {
         </div>
       </section>
 
-      <section id="experiences" className="w-full max-w-4xl mb-12">
+      <section id="experiences" className="w-full max-w-4xl mb-40">
         <h2 className="text-2xl font-bold mb-4">WORK EXPERIENCES</h2>
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6 flex items-start space-x-6">
           <div className="flex-shrink-0 w-32 h-32">
@@ -214,7 +214,7 @@ export default function CV() {
           </div>
         </div>
       </section>
-      <section id="education" className="w-full max-w-4xl mb-12">
+      <section id="education" className="w-full max-w-4xl mb-40">
         <h2 className="text-2xl font-bold mb-4">EDUCATION</h2>
 
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6 flex items-start space-x-6">
@@ -322,7 +322,7 @@ export default function CV() {
 
       <footer className="w-full text-center mt-12">
         <p>Omar Abdesslem</p>
-        <p>Built by hand using Typescript on React.Js</p>
+        <p>Built by hand using React</p>
         <p>Inspired by Creative CV from Template Flip</p>
         <p>MIT License, 2024</p>
       </footer>
