@@ -57,8 +57,8 @@ export default function CV() {
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold mb-4">ABOUT</h3>
           <p className="mb-4">
-            Hi there! I'm Omar. I'm currently an undergraduate student studying
-            Computer Science at
+            Hi there! I&#39;m Omar. I&#39;m currently an undergraduate student
+            studying Computer Science at
             <a
               href="https://www.unige.ch"
               target="_blank"
@@ -71,7 +71,7 @@ export default function CV() {
           </p>
           <p>
             I am passionate about leveraging technology to create innovative
-            solutions that improve people's lives. My interests include
+            solutions that improve people&#39;s lives. My interests include
             cryptography, web development, and artificial intelligence. I am
             always eager to learn new technologies and explore new opportunities
             to apply my skills.
