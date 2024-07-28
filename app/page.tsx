@@ -58,7 +58,7 @@ export default function CV() {
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold mb-4">ABOUT</h3>
           <p className="mb-4">
-            Hi, I'm Omar, I am an undergraduate student majoring in Computer
+            Hi, I&#39;m Omar, I am an undergraduate student majoring in Computer
             Science at the
             <a
               href="https://www.unige.ch"
@@ -72,7 +72,7 @@ export default function CV() {
           </p>
           <p>
             I am passionate about leveraging technology to create innovative
-            solutions that improve people's lives. My interests include
+            solutions that improve people&#39;s lives. My interests include
             cryptography, web development, and artificial intelligence. I am
             always eager to learn new technologies and explore new opportunities
             to apply my skills.
@@ -200,7 +200,7 @@ export default function CV() {
           </div>
           <div className="flex-1">
             <h3 className="text-xl font-semibold">University of Geneva</h3>
-            <p>Bachelor's degree, Computer Science</p>
+            <p>Bachelor&#39;s degree, Computer Science</p>
             <p>Sep 2021 - June 2025</p>
             <p>
               Studied core subjects including Cryptography, Semantics, Networks
