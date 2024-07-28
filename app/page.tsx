@@ -57,8 +57,8 @@ export default function CV() {
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold mb-4">ABOUT</h3>
           <p className="mb-4">
-            Hi there! I&#39;m Omar. I&#39;m currently an undergraduate student
-            studying Computer Science at
+            Hi there! I&#39;m Omar, an undergraduate student pursuing Computer
+            Science at
             <a
               href="https://www.unige.ch"
               target="_blank"
@@ -117,20 +117,21 @@ export default function CV() {
 
       <section id="projects" className="w-full max-w-4xl mb-40">
         <h2 className="text-2xl font-bold mb-4">PROJECTS</h2>
+
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
           <h3 className="text-xl font-semibold">
-            Software Design | Requirements Engineering for EasyMath
+            EduAssess: Interactive Lab Feedback System
           </h3>
           <p>
-            As part of a Software Engineering project at The University of Hong
-            Kong, EasyMath is a web-based application designed to enhance
-            mathematics education at Kent Road Kindergarten. The project
-            entailed designing a system where teachers use AI to create and
-            manage online exercises, and students complete these exercises with
-            their progress tracked and rewarded. Key deliverables included
-            gathering and confirming requirements, creating detailed system
-            diagrams, updating designs based on client feedback, and producing a
-            prototype video demo.
+            Over the span of a semestre, I developed EduAssess, a software
+            application aimed at helping students better understand the
+            expectations of their lab assignments in the Operating Systems
+            course at UNIGE. Supervised by my professor, Chanel Guillaume, this
+            tool provides instant and autonomous feedback by running rigorous
+            Python tests that simulate the evaluation criteria set by the
+            professor. The system minimizes the use of external libraries and is
+            designed to handle execution differences across different
+            environments.
           </p>
         </div>
 
@@ -148,7 +149,7 @@ export default function CV() {
             >
               TMDB Box Office Prediction
             </a>{" "}
-            competition on Kaggle.
+            Big Data competition on Kaggle.
           </p>
           <p>
             {" "}
@@ -158,24 +159,23 @@ export default function CV() {
             occurrences in production countries, spoken languages, keywords,
             cast, and crew. Various models were tried, and the best fitting
             model was selected based on performance. This was in the context of
-            our Data Mining course Project.
+            our Data Mining course Project. Our final score was
           </p>
         </div>
-
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
           <h3 className="text-xl font-semibold">
-            EduAssess: Interactive Lab Feedback System
+            Software Design | Requirements Engineering for EasyMath
           </h3>
           <p>
-            Over the span of a semestre, I developed EduAssess, a software
-            application aimed at helping students better understand the
-            expectations of their lab assignments in the Operating Systems
-            course at UNIGE. Supervised by my professor, Chanel Guillaume, this
-            tool provides instant and autonomous feedback by running rigorous
-            Python tests that simulate the evaluation criteria set by the
-            professor. The system minimizes the use of external libraries and is
-            designed to handle execution differences across different
-            environments.
+            As part of a Software Engineering project at The University of Hong
+            Kong, EasyMath is a web-based application designed to enhance
+            mathematics education at Kent Road Kindergarten. The project
+            entailed designing a system where teachers use AI to create and
+            manage online exercises, and students complete these exercises with
+            their progress tracked and rewarded. Key deliverables included
+            gathering and confirming requirements, creating detailed system
+            diagrams, updating designs based on client feedback, and producing a
+            prototype video demo.
           </p>
         </div>
       </section>
@@ -317,7 +317,7 @@ export default function CV() {
           {/* Hackathon */}
           <div className="w-full md:w-1/2 px-3 mb-6">
             <a
-              href="https://webfest.cern"
+              href="https://indico.cern.ch/event/1439058/timetable/?print=1&view=standard_inline_minutes"
               target="_blank"
               rel="noopener noreferrer"
             >
