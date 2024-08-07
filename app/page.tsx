@@ -1,6 +1,4 @@
 import Image from "next/image";
-import {} from "frame-motion";
-
 export default function CV() {
   return (
     <main className="flex flex-col items-center p-12 bg-gray-100 text-black">
