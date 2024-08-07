@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {} from "frame-motion";
 
 export default function CV() {
   return (
