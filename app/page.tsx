@@ -69,11 +69,9 @@ export default function CV() {
             (UNIGE), Switzerland.
           </p>
           <p>
-            I am passionate about leveraging technology to create innovative
-            solutions that improve peoples lives. My interests include
-            cryptography, web development, and artificial intelligence. I am
-            always eager to learn new technologies and explore new opportunities
-            to apply my skills.
+            I strive for ingenuity and seek new opportunities to apply and
+            refine my skills in cryptography, web development, and artificial
+            intelligence.
           </p>
           <div className="mt-4 flex justify-center space-x-4">
             <a
