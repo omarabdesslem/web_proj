@@ -316,19 +316,40 @@ export default function CV() {
           {/* Hackathon */}
           <div className="w-full md:w-1/2 px-3 mb-6">
             <a
-              href="https://indico.cern.ch/event/1439058/timetable/?print=1&view=standard_inline_minutes"
+              href="https://energydatahackdays.ch"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/cern-symbole.png"
+                src="/images/energy-hackadays.png"
                 alt="CERN Collider"
                 width={320}
                 height={160}
                 className="w-full h-auto rounded-lg"
               />
             </a>
-            <h3 className="text-xl font-semibold mt-2">CERN Webfest 2024</h3>
+            <h3 className="text-xl font-semibold mt-2">
+              Energy Data Hackadays 2024, Aargau
+            </h3>
+            <p>{/* dsfkdslfjdslfjsdklfjdslkjf */}</p>
+          </div>
+          <div className="w-full md:w-1/2 px-3 mb-6">
+            <a
+              href="https://indico.cern.ch/event/1439058/timetable/?print=1&view=standard_inline_minutes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/images/opendata-glamhack.jpeg"
+                alt="CERN Collider"
+                width={320}
+                height={160}
+                className="w-full h-auto rounded-lg"
+              />
+            </a>
+            <h3 className="text-xl font-semibold mt-2">
+              Swiss Open Cultural Data Hackathon, Luzern
+            </h3>
             <p>{/* dsfkdslfjdslfjsdklfjdslkjf */}</p>
           </div>
 
