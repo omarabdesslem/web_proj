@@ -150,7 +150,7 @@ export default function CV() {
           </p>
           <p>
             {" "}
-            Our goal was to use Machine Learning to predict a film&#39s sucess
+            Our goal was to use Machine Learning to predict a film&#39;s sucess
             based on the movie's metadata from imdb. We focused on preprocessing
             by removing unnecessary information and converting certain features
             into boolean values. We also applied multiclass hot encoding to
