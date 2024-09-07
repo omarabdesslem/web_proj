@@ -151,14 +151,14 @@ export default function CV() {
           <p>
             {" "}
             Our goal was to use Machine Learning to predict a film&#39;s sucess
-            based on the movie's metadata from imdb. We focused on preprocessing
-            by removing unnecessary information and converting certain features
-            into boolean values. We also applied multiclass hot encoding to
-            genres and counted occurrences in production countries, spoken
-            languages, keywords, cast, and crew. Various models were tried, and
-            the best fitting model was selected based on performance. This was
-            in the context of our Data Mining course Project. Our final score
-            was 1.5
+            based on the movie&#39;s metadata from imdb. We focused on
+            preprocessing by removing unnecessary information and converting
+            certain features into boolean values. We also applied multiclass hot
+            encoding to genres and counted occurrences in production countries,
+            spoken languages, keywords, cast, and crew. Various models were
+            tried, and the best fitting model was selected based on performance.
+            This was in the context of our Data Mining course Project. Our final
+            score was 1.5
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
