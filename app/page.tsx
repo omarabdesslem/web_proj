@@ -24,44 +24,29 @@ export default function CV() {
       </header>
 
       <nav className="mb-12">
-        <ul className="flex flex-wrap justify-center space-x-4 sm:space-x-4 sm:flex-nowrap">
-          <li className="w-full sm:w-auto">
-            <a
-              href="#about"
-              className="text-blue-900 hover:underline block text-center"
-            >
+        <ul className="flex flex-wrap justify-center space-x-4">
+          <li>
+            <a href="#about" className="text-blue-900 hover:underline">
               ABOUT
             </a>
           </li>
-          <li className="w-full sm:w-auto">
-            <a
-              href="#projects"
-              className="text-blue-900 hover:underline block text-center"
-            >
+          <li>
+            <a href="#projects" className="text-blue-900 hover:underline">
               PROJECTS
             </a>
           </li>
-          <li className="w-full sm:w-auto">
-            <a
-              href="#experiences"
-              className="text-blue-900 hover:underline block text-center"
-            >
+          <li>
+            <a href="#experiences" className="text-blue-900 hover:underline">
               EXPERIENCES
             </a>
           </li>
-          <li className="w-full sm:w-auto">
-            <a
-              href="#education"
-              className="text-blue-900 hover:underline block text-center"
-            >
+          <li className="w-full sm:w-auto text-center">
+            <a href="#education" className="text-blue-900 hover:underline">
               EDUCATION
             </a>
           </li>
-          <li className="w-full sm:w-auto">
-            <a
-              href="#activities"
-              className="text-blue-900 hover:underline block text-center"
-            >
+          <li>
+            <a href="#activities" className="text-blue-900 hover:underline">
               ACTIVITIES
             </a>
           </li>
