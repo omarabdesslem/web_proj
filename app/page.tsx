@@ -157,7 +157,7 @@ export default function CV() {
             occurrences in production countries, spoken languages, keywords,
             cast, and crew. Various models were tried, and the best fitting
             model was selected based on performance. This was in the context of
-            our Data Mining course Project. Our final score was
+            our Data Mining course Project. Our final score was 1.5
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
