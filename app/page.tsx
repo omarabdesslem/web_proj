@@ -22,7 +22,6 @@ export default function CV() {
           </div>
         </div>
       </header>
-
       <nav className="mb-12">
         <ul className="flex flex-wrap justify-center space-x-4">
           <li>
@@ -45,7 +44,7 @@ export default function CV() {
               EDUCATION
             </a>
           </li>
-          <li>
+          <li className="w-full sm:w-auto text-center">
             <a href="#activities" className="text-blue-900 hover:underline">
               ACTIVITIES
             </a>
