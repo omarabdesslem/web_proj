@@ -176,11 +176,10 @@ export default function CV() {
           </p>
         </div>
       </section>
-
       <section id="experiences" className="w-full max-w-4xl mb-40">
         <h2 className="text-2xl font-bold mb-4">WORK EXPERIENCES</h2>
-        <div className="bg-white p-6 rounded-lg shadow-lg mb-6 flex items-start space-x-6">
-          <div className="flex-shrink-0 w-32 h-32">
+        <div className="bg-white p-6 rounded-lg shadow-lg mb-6 flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="flex-shrink-0 w-24 h-24 sm:w-32 sm:h-32 mx-auto sm:mx-0">
             <a
               href="https://slrlab.edu.hku.hk/about-us/"
               target="_blank"
@@ -217,8 +216,8 @@ export default function CV() {
           </div>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-lg flex items-start space-x-6">
-          <div className="flex-shrink-0 w-32 h-32">
+        <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="flex-shrink-0 w-24 h-24 sm:w-32 sm:h-32 mx-auto sm:mx-0">
             <a
               href="https://www.futurekids.io"
               target="_blank"
@@ -247,11 +246,12 @@ export default function CV() {
           </div>
         </div>
       </section>
+
       <section id="education" className="w-full max-w-4xl mb-40">
         <h2 className="text-2xl font-bold mb-4">EDUCATION</h2>
 
-        <div className="bg-white p-6 rounded-lg shadow-lg mb-6 flex items-start space-x-6">
-          <div className="flex-shrink-0 w-32 h-32">
+        <div className="bg-white p-6 rounded-lg shadow-lg mb-6 flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="flex-shrink-0 w-24 h-24 sm:w-32 sm:h-32 mx-auto sm:mx-0">
             <a
               href="https://www.unige.ch"
               target="_blank"
@@ -277,8 +277,8 @@ export default function CV() {
           </div>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-lg flex items-start space-x-6">
-          <div className="flex-shrink-0 w-32 h-32">
+        <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="flex-shrink-0 w-24 h-24 sm:w-32 sm:h-32 mx-auto sm:mx-0">
             <a
               href="https://www.hku.hk"
               target="_blank"
