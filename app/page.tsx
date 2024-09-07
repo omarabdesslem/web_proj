@@ -24,34 +24,50 @@ export default function CV() {
       </header>
 
       <nav className="mb-12">
-        <ul className="flex space-x-4 justify-center">
-          <li>
-            <a href="#about" className="text-blue-900 hover:underline">
+        <ul className="flex flex-wrap justify-center space-x-4 sm:space-x-4 sm:flex-nowrap">
+          <li className="w-full sm:w-auto">
+            <a
+              href="#about"
+              className="text-blue-900 hover:underline block text-center"
+            >
               ABOUT
             </a>
           </li>
-          <li>
-            <a href="#projects" className="text-blue-900 hover:underline">
+          <li className="w-full sm:w-auto">
+            <a
+              href="#projects"
+              className="text-blue-900 hover:underline block text-center"
+            >
               PROJECTS
             </a>
           </li>
-          <li>
-            <a href="#experiences" className="text-blue-900 hover:underline">
+          <li className="w-full sm:w-auto">
+            <a
+              href="#experiences"
+              className="text-blue-900 hover:underline block text-center"
+            >
               EXPERIENCES
             </a>
           </li>
-          <li>
-            <a href="#education" className="text-blue-900 hover:underline">
+          <li className="w-full sm:w-auto">
+            <a
+              href="#education"
+              className="text-blue-900 hover:underline block text-center"
+            >
               EDUCATION
             </a>
           </li>
-          <li>
-            <a href="#activities" className="text-blue-900 hover:underline">
+          <li className="w-full sm:w-auto">
+            <a
+              href="#activities"
+              className="text-blue-900 hover:underline block text-center"
+            >
               ACTIVITIES
             </a>
           </li>
         </ul>
       </nav>
+
       <section id="about" className="w-full max-w-4xl mb-40">
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold mb-4">ABOUT</h3>
