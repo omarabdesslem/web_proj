@@ -39,12 +39,12 @@ export default function CV() {
               EXPERIENCES
             </a>
           </li>
-          <li className="w-full sm:w-auto text-center">
+          <li className="text-center">
             <a href="#education" className="text-blue-900 hover:underline">
               EDUCATION
             </a>
           </li>
-          <li className="w-full sm:w-auto text-center">
+          <li className="text-center">
             <a href="#activities" className="text-blue-900 hover:underline">
               ACTIVITIES
             </a>
