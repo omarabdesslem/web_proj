@@ -69,9 +69,8 @@ export default function CV() {
             (UNIGE), Switzerland.
           </p>
           <p>
-            I strive for ingenuity and seek new opportunities to apply and
-            refine my skills in cryptography, web development, and artificial
-            intelligence.
+            I strive for ingenuity and ways to apply and refine my skills in
+            cryptography, web development, and artificial intelligence.
           </p>
           <div className="mt-4 flex justify-center space-x-4">
             <a
