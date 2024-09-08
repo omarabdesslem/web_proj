@@ -69,8 +69,8 @@ export default function CV() {
             (UNIGE), Switzerland.
           </p>
           <p>
-            I strive for ingenuity and to skill refinement in software
-            engineering, data mining, cryptography, and web development.
+            I strive for ingenuity and skill refinement in software engineering,
+            data mining, cryptography, and web development.
           </p>
           <div className="mt-4 flex justify-center space-x-4">
             <a
