@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function CV() {
   return (
     <main className="flex flex-col items-center p-12 bg-gray-100 text-black">
-      <header className="mb-12 text-center">
+      <header className="mb-12 text-center sm:mb-12">
         {/* Circular Image */}
         <div className="flex flex-col items-center mb-4">
           <Image
@@ -69,8 +69,8 @@ export default function CV() {
             (UNIGE), Switzerland.
           </p>
           <p>
-            I strive for ingenuity and ways to apply and refine my skills in
-            cryptography, web development, and artificial intelligence.
+            I strive for ingenuity and to refine my skills in software
+            engineering, data mining, cryptography, and web development.
           </p>
           <div className="mt-4 flex justify-center space-x-4">
             <a
