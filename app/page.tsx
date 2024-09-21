@@ -116,6 +116,38 @@ export default function CV() {
 
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
           <h3 className="text-xl font-semibold">
+            SwissGrid: Prediction of PV installation angles
+          </h3>
+          <p>
+            Winner team for the Swissgrid Challenge for{" "}
+            <a
+              href="https://energydatahackdays.ch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-900 hover:underline"
+            >
+              Energy Data Hackdays, Aargau.
+            </a>{" "}
+          </p>{" "}
+          <p>
+            {" "}
+            For this project, we used Databricks and Python to predict
+            photovoltaic (PV) installation angles (orientation and tilt) for
+            over 233,000 PV plants in Switzerland. By integrating data from
+            sonnendach.ch, which provided roof information, with the Pronovo AG
+            database, we employed minimum distance clustering to match PV plants
+            to the nearest buildings. We used KMeans clustering to group plants
+            and buildings based on geographic proximity. Our predictive models
+            estimated installation angles to fill in missing data, enhancing
+            forecast accuracy for renewable energy generation. Through this
+            project, we gained experience in geospatial data clustering,
+            handling big data with Databricks, and applying predictive modeling
+            for energy forecasting.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
+          <h3 className="text-xl font-semibold">
             EduAssess: Interactive Lab Feedback System
           </h3>
           <p>
@@ -158,22 +190,6 @@ export default function CV() {
             tried, and the best fitting model was selected based on performance.
             This was in the context of our Data Mining course Project. Our final
             score was 1.5
-          </p>
-        </div>
-        <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
-          <h3 className="text-xl font-semibold">
-            Software Design | Requirements Engineering for EasyMath
-          </h3>
-          <p>
-            As part of a Software Engineering project at The University of Hong
-            Kong, EasyMath is a web-based application designed to enhance
-            mathematics education at Kent Road Kindergarten. The project
-            entailed designing a system where teachers use AI to create and
-            manage online exercises, and students complete these exercises with
-            their progress tracked and rewarded. Key deliverables included
-            gathering and confirming requirements, creating detailed system
-            diagrams, updating designs based on client feedback, and producing a
-            prototype video demo.
           </p>
         </div>
       </section>
