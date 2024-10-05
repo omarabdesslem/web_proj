@@ -188,7 +188,7 @@ export default function CV() {
             encoding to genres and counted occurrences in production countries,
             spoken languages, keywords, cast, and crew. Various models were
             tried, and the best fitting model was selected based on performance.
-            This was in the context of our Data Mining course Project. Our final
+            This was in the context of our Data Mining course Project. Final
             score was 1.5
           </p>
         </div>
