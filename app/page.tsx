@@ -337,18 +337,17 @@ export default function CV() {
             >
               <Image
                 src="/images/ORD-for-the-sciences-epfl.jpg"
-                alt="CERN Collider"
-                width={320}
-                height={160}
-                className="w-full h-auto rounded-lg"
+                alt="ORD-for-the-sciences"
+                width={1300}
+                height={1000}
+                className="w-[500px] h-[300px] rounded-lg object-cover"
               />
             </a>
             <h3 className="text-xl font-semibold mt-2">
               Hackathon: ORD for the Sciences, EPFL
             </h3>
-            <p>{/* Energy Data Hackadays 2024, Aargau */}</p>
+            <p>{/* Energy Hackathon */}</p>
           </div>
-           <div className="flex flex-wrap -mx-3">
           {/* Hackathon */}
           <div className="w-full md:w-1/2 px-3 mb-6">
             <a
@@ -358,10 +357,10 @@ export default function CV() {
             >
               <Image
                 src="/images/energy-hackadays.png"
-                alt="CERN Collider"
-                width={320}
-                height={160}
-                className="w-full h-auto rounded-lg"
+                alt="Energy Hackathon"
+                width={1300}
+                height={1000}
+                className="w-[500px] h-[300px] rounded-lg object-cover"
               />
             </a>
             <h3 className="text-xl font-semibold mt-2">
@@ -369,18 +368,20 @@ export default function CV() {
             </h3>
             <p>{/* Energy Data Hackadays 2024, Aargau */}</p>
           </div>
+
+          {/* Hackathon */}
           <div className="w-full md:w-1/2 px-3 mb-6">
             <a
-              href="https://indico.cern.ch/event/1439058/timetable/?print=1&view=standard_inline_minutes"
+              href="https://opendata.ch/events/glamhack24/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
                 src="/images/opendata-glamhack.jpeg"
-                alt="CERN Collider"
-                width={320}
-                height={160}
-                className="w-full h-auto rounded-lg"
+                alt="Swiss Open Cultural Data Hackathon, Luzern"
+                width={1300}
+                height={1000}
+                className="w-[500px] h-[300px] rounded-lg object-cover"
               />
             </a>
             <h3 className="text-xl font-semibold mt-2">
@@ -389,7 +390,7 @@ export default function CV() {
             <p>{/* Swiss Open Cultural Data Hackathon, Luzern */}</p>
           </div>
 
-          {/* 2nd to add kldjfkskfjsf */}
+          {/* French Society */}
           <div className="w-full md:w-1/2 px-3 mb-6">
             <a
               href="https://www.instagram.com/hkufrancais/"
@@ -397,11 +398,11 @@ export default function CV() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/french_soc.webp"
+                src="/images/french_soc_log.png"
                 alt="Activity Logo"
-                width={320}
-                height={160}
-                className="w-full h-auto rounded-lg"
+                width={1300}
+                height={1000}
+                className="w-[500px] h-[300px] rounded-lg object-cover"
               />
             </a>
             <h3 className="text-xl font-semibold mt-2">
