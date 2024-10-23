@@ -331,6 +331,27 @@ export default function CV() {
           {/* Hackathon */}
           <div className="w-full md:w-1/2 px-3 mb-6">
             <a
+              href="https://www.datascience.ch/event/sdsc-hackathons-ord-for-the-sciences"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/images/ORD-for-the-sciences-epfl.jpg"
+                alt="CERN Collider"
+                width={320}
+                height={160}
+                className="w-full h-auto rounded-lg"
+              />
+            </a>
+            <h3 className="text-xl font-semibold mt-2">
+              Hackathon: ORD for the Sciences, EPFL
+            </h3>
+            <p>{/* Energy Data Hackadays 2024, Aargau */}</p>
+          </div>
+           <div className="flex flex-wrap -mx-3">
+          {/* Hackathon */}
+          <div className="w-full md:w-1/2 px-3 mb-6">
+            <a
               href="https://energydatahackdays.ch"
               target="_blank"
               rel="noopener noreferrer"
@@ -346,7 +367,7 @@ export default function CV() {
             <h3 className="text-xl font-semibold mt-2">
               Energy Data Hackadays 2024, Aargau
             </h3>
-            <p>{/* dsfkdslfjdslfjsdklfjdslkjf */}</p>
+            <p>{/* Energy Data Hackadays 2024, Aargau */}</p>
           </div>
           <div className="w-full md:w-1/2 px-3 mb-6">
             <a
@@ -365,7 +386,7 @@ export default function CV() {
             <h3 className="text-xl font-semibold mt-2">
               Swiss Open Cultural Data Hackathon, Luzern
             </h3>
-            <p>{/* dsfkdslfjdslfjsdklfjdslkjf */}</p>
+            <p>{/* Swiss Open Cultural Data Hackathon, Luzern */}</p>
           </div>
 
           {/* 2nd to add kldjfkskfjsf */}
@@ -386,7 +407,7 @@ export default function CV() {
             <h3 className="text-xl font-semibold mt-2">
               French Society, HKU, 2023-2024
             </h3>
-            <p>{/* activity details klsdjfksd */}</p>
+            <p>{/* French Society, HKU, 2023-2024 */}</p>
           </div>
         </div>
       </section>
