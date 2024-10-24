@@ -336,7 +336,7 @@ export default function CV() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/ORD-for-the-sciences-epfl.jpg"
+                src="/images/ORD-for-the-sciences-epfl.png"
                 alt="ORD-for-the-sciences"
                 width={1300}
                 height={1000}
