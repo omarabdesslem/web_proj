@@ -1,0 +1,29 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main  # or the branch you want to deploy from
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      # You can skip the test step by commenting it out or adding a conditional
+      # - name: Run tests
+      #   run: npm test
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to Netlify
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --prod
