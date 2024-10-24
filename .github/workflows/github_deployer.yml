@@ -1,4 +1,4 @@
-name: Deploy Next.js Site to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -13,25 +13,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '20' # Specify the Node.js version you are using
-
       - name: Install dependencies
         run: npm install
 
       - name: Build project
         run: npm run build
 
-      - name: Prepare for Deployment
-        run: |
-          mkdir out
-          cp -r ./build/* ./out/ # Adjust based on where your build outputs to
-          cp -r ./public/* ./out/ # Include any static assets if needed
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+          publish_dir: ./out  # Change this to ./out
