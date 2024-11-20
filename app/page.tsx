@@ -398,7 +398,7 @@ export default function CV() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/french_soc_log.jpg"
+                src="/images/french_soc_log.png"
                 alt="Activity Logo"
                 width={1300}
                 height={1000}
