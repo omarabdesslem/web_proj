@@ -11,6 +11,7 @@ export default function CV() {
             width={150}
             height={150}
             className="rounded-full border-4 border-gray-300"
+            loading="eager"
           />
           {/* Name and details */}
           <div className="mt-4">
@@ -208,6 +209,7 @@ export default function CV() {
                 width={150}
                 height={150}
                 className="rounded-full"
+                loading="eager"
               />
             </a>
           </div>
@@ -246,6 +248,7 @@ export default function CV() {
                 width={150}
                 height={150}
                 className="rounded-full"
+                loading="eager"
               />
             </a>
           </div>
@@ -280,6 +283,7 @@ export default function CV() {
                 width={150}
                 height={150}
                 className="rounded-full"
+                loading="eager"
               />
             </a>
           </div>
@@ -307,6 +311,7 @@ export default function CV() {
                 width={150}
                 height={150}
                 className="rounded-full"
+                loading="eager"
               />
             </a>
           </div>
@@ -341,6 +346,7 @@ export default function CV() {
                 width={1300}
                 height={1000}
                 className="w-[500px] h-[300px] rounded-lg object-cover"
+                loading="eager"
               />
             </a>
             <h3 className="text-xl font-semibold mt-2">
@@ -361,6 +367,7 @@ export default function CV() {
                 width={1300}
                 height={1000}
                 className="w-[500px] h-[300px] rounded-lg object-cover"
+                loading="eager"
               />
             </a>
             <h3 className="text-xl font-semibold mt-2">
@@ -382,6 +389,7 @@ export default function CV() {
                 width={1300}
                 height={1000}
                 className="w-[500px] h-[300px] rounded-lg object-cover"
+                loading="eager"
               />
             </a>
             <h3 className="text-xl font-semibold mt-2">
@@ -403,6 +411,7 @@ export default function CV() {
                 width={1300}
                 height={1000}
                 className="w-[500px] h-[300px] rounded-lg object-cover"
+                loading="eager"
               />
             </a>
             <h3 className="text-xl font-semibold mt-2">
