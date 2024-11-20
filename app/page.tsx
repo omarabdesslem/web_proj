@@ -336,7 +336,7 @@ export default function CV() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/ORD-for-the-sciences-epfl.png"
+                src="/images/ORD-for-the-sciences-epfl.jpg"
                 alt="ORD-for-the-sciences"
                 width={1300}
                 height={1000}
@@ -356,7 +356,7 @@ export default function CV() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/energy-hackadays.png"
+                src="/images/energy-hackadays.jpg"
                 alt="Energy Hackathon"
                 width={1300}
                 height={1000}
@@ -398,7 +398,7 @@ export default function CV() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/french_soc_log.png"
+                src="/images/french_soc_log.jpg"
                 alt="Activity Logo"
                 width={1300}
                 height={1000}
