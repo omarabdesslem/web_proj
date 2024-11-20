@@ -306,7 +306,7 @@ export default function CV() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/hku_logo.png"
+                src="/images/hku_logo.jpg"
                 alt="The University of Hong Kong Logo"
                 width={150}
                 height={150}
