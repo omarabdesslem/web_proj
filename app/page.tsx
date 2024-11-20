@@ -384,7 +384,7 @@ export default function CV() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/opendata-glamhack.jpeg"
+                src="/images/opendata-glamhack.jpg"
                 alt="Swiss Open Cultural Data Hackathon, Luzern"
                 width={1300}
                 height={1000}
