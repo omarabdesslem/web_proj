@@ -204,7 +204,7 @@ export default function CV() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/hku_logo.png"
+                src="/images/hku_logo.jpg"
                 alt="SRLAB Logo"
                 width={150}
                 height={150}
